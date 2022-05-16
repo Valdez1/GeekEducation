@@ -7,7 +7,7 @@ public class Main {
         checkSumSign();
         printColor();
         compareNumbers();
-        //квадрат из квадратов
+        //РєРІР°РґСЂР°С‚ РёР· РєРІР°РґСЂР°С‚РѕРІ
         drawSquare();
 
     }
@@ -23,20 +23,20 @@ public class Main {
         int b = 2;
         int result = a + b;
         if (result > 0) {
-            System.out.println("Сумма положительная");
+            System.out.println("РЎСѓРјРјР° РїРѕР»РѕР¶РёС‚РµР»СЊРЅР°СЏ");
         } else {
-            System.out.println("Сумма отрицательная");
+            System.out.println("РЎСѓРјРјР° РѕС‚СЂРёС†Р°С‚РµР»СЊРЅР°СЏ");
         }
     }
 
     private static void printColor() {
         int value = -1;
         if (value <= 0) {
-            System.out.println("Красный");
+            System.out.println("РљСЂР°СЃРЅС‹Р№");
         } else if (0 <= value && value <= 100) {
-            System.out.println("Желтый");
+            System.out.println("Р–РµР»С‚С‹Р№");
         } else if (100 <= value) {
-            System.out.println("Зеленый");
+            System.out.println("Р—РµР»РµРЅС‹Р№");
         }
     }
 
@@ -50,12 +50,12 @@ public class Main {
         }
     }
 
-    // квадрат из квадратов
+    // РєРІР°РґСЂР°С‚ РёР· РєРІР°РґСЂР°С‚РѕРІ
     private static void drawSquare() {
         System.out.println("""
-                Квадрат
-                Квадрат
-                Квадрат
+                РљРІР°РґСЂР°С‚
+                РљРІР°РґСЂР°С‚
+                РљРІР°РґСЂР°С‚
                 """);
     }
 }
